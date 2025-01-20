@@ -14,6 +14,7 @@ export default function UserList() {
         fetch(process.env.REACT_APP_BACKEND_URL + `/allUsers`).then((res) => {
             return res.json();
         }).then((res) => {
+            
             setusers(res);
             console.log("users=>", res);
         }).catch((err) => {

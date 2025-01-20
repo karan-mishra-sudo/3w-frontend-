@@ -62,7 +62,7 @@ function DemoPageContent({ pathname }) {
         >
 
             {pathname === "/users" && <UserList />}
-            {pathname === "/logout" && logout()}
+            {pathname === "/logout" && {}}
         </Box>
     );
 }
